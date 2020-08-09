@@ -1,0 +1,47 @@
+WEB 
+
+yarn create-react-app web --template typescript (deu erro)
+npx create-react-app web --template typescript
+
+yarn add react-router-dom | npm install react-router-dom -D
+yarn add @types/react-router-dom -D
+
+SERVER
+mkdir server -> cd server
+yarn init -y
+yarn add typescript -D
+yarn tsc --init
+yarn add ts-node-dev -D
+yarn add express
+yarn add @types/express -D
+yarn add knex sqlite3
+cors permite que, mesmo estando em endereço diferente acesse a API
+yarn add cors
+yarn add @types/cors -D
+
+yarn add axios (para comunicar com APIs externas)
+
+MOBILE
+
+expo init mobile (blank typescript)
+yarn start
+Instalar fontes:
+expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+Navegação
+yarn add @react-navigation/native
+Installing dependencies into an Expo managed project
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+Installing the stack navigator library (navegação em pilha - botão de voltar)
+yarn add @react-navigation/stack
+Tab navigation
+yarn add @react-navigation/bottom-tabs
+yarn add axios (para comunicar com APIs externas)
+PARA STORAGE NA MEMÓRIA INTERNA DO CEL
+expo install @react-native-community/async-storage
+
+=======
+FONTS
+Archivo_400Regular
+Archivo_700Bold
+Poppins_400Regular
+Poppins_600SemiBold
